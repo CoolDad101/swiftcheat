@@ -48,16 +48,31 @@ assign as constant
 
 #### /
 
+#### % (remainder)
+
+## COMPARISON OPERATORS
+
 #### == (tests for equivalency, *'equals'*)
+
+#### !=
+Not equal
+
+#### <
+Less than
+
+#### >
+Greater than
 
 ## ASSIGNMENT OPERATOR
 #### = (**this is for assignment not math**)
 
-## LOGIC OPERATOR
+## LOGIC OPERATORS
 ### &
 AND
 ### ||
 OR
+### !
+NOT
 
 ## TYPES
 ### String
@@ -81,6 +96,10 @@ Decimal Values 1.001, 32 bit
 
 ### Double
 Wide number range + Decimal  100000000.001, 64 bit
+
+### Bool
+TRUE
+FALSE
 
 ## COMMON FUNCTIONS
 ### print()
