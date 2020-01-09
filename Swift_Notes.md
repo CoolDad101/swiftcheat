@@ -98,8 +98,8 @@ Decimal Values 1.001, 32 bit
 Wide number range + Decimal  100000000.001, 64 bit
 
 ### Bool
-TRUE
-FALSE
+#### TRUE
+#### FALSE
 
 ## COMMON FUNCTIONS
 ### print()
