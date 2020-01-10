@@ -75,7 +75,7 @@ OR
 ### !
 NOT
 
-## TYPES
+## DATA TYPES
 ### String
 "*words and letters go here...is this a UTF base?*"
 
