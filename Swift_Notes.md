@@ -75,6 +75,10 @@ OR
 ### !
 NOT
 
+## OTHER OPERATORS
+### ->
+points to the type of return value to be provided by a function ie: -> Int
+
 ## DATA TYPES
 ### String
 "*words and letters go here...is this a UTF base?*"
