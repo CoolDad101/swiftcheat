@@ -107,7 +107,12 @@ Print command
 ### return " "
 returns specified object
 ### import
-imports Frameworks, Modules. Use at application top level or within desired scope 
+imports Frameworks, Modules. Use at application top level or within desired scope
+
+## CLASS INSTANTIATION
+### ()
+Use parenthese to instantiate a predefined Object(see **Object**)  
+ie: soapbars() an Object "soapbars" is instantiated by calling its name.
 
 
 
