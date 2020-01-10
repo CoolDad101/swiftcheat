@@ -19,6 +19,7 @@ curly braces are a Scope
 
 
 ## OBJECT TYPES
+a type is a set of methods describing what all instances of that type can do (encapsulation of functionality)
 ### class
 ### struct
 ### enum
