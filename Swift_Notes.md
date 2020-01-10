@@ -114,6 +114,10 @@ imports Frameworks, Modules. Use at application top level or within desired scop
 Use parenthese to instantiate a predefined Object(see **Object**)  
 ie: soapbars() an Object "soapbars" is instantiated by calling its name.
 
-
+## KEYWORDS
+### self
+ie: self.functionvariablemethod calls an object(functionvariablemethod) within the scope of the instance you are working in.
+### private
+keeps associated property private to the instance it belongs to, the property will not be seen from outside its instance.
 
 
