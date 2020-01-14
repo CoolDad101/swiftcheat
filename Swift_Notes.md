@@ -79,6 +79,9 @@ NOT
 ### ->
 points to the type of return value to be provided by a function ie: -> Int
 
+### \n
+creates line break for a string
+
 ## DATA TYPES
 ### String
 "*words and letters go here...is this a UTF base?*"
@@ -108,7 +111,8 @@ Wide number range + Decimal  100000000.001, 64 bit
 
 ## COMMON FUNCTIONS
 ### print()
-Print command
+print command
+default parameters(are interchageable): separator:", ", terminator:"\n"
 ### return " "
 returns specified object
 ### import
@@ -126,5 +130,7 @@ ie: self.functionvariablemethod calls an object(functionvariablemethod) within t
 keeps associated property private to the instance it belongs to, the property will not be seen from outside its instance.
 ### return
 Defines the return value of a function
+### inout
+function parameter, need further definition
 
 
