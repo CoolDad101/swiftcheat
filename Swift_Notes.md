@@ -83,6 +83,10 @@ points to the type of return value to be provided by a function ie: -> Int
 creates line break for a string
 
 ## DATA TYPES
+
+### Data
+Byte buffer
+
 ### String
 "*words and letters go here...is this a UTF base?*"
 
