@@ -99,7 +99,7 @@ UInt16: 0 to 65535
 UInt32: 0 to 4294967295  
 UInt64: 0 to 18446744073709551615  
 
-### Float(uses Darwin module?)
+### Float(unsigned)
 Decimal Values  
 ie. "6345631.432"  
 
@@ -110,11 +110,11 @@ float64: 1.7976931348623e+308
 float80: 1.189731495357231765e+4932  
 cfloat: 3.402823e+38  
 
-### Double
+### Double(unsigned)
 64 bit Wide number range Decimal  
 ie. "134634563456.001"
 
-### Double Variants
+### Double Variants(values determined by .greatestFiniteMagnitude using Darwin, accuracy compiler dependant?)
 double: 1.7976931348623e+308  
 clongdouble: 1.189731495357231765e+4932  
 cdouble: 1.797693134862316e+308  
