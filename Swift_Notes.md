@@ -119,7 +119,7 @@ double: 1.7976931348623e+308
 clongdouble: 1.189731495357231765e+4932  
 cdouble: 1.797693134862316e+308  
 
-### Bool
+### Bool(these values are literal types and can not be converted to other types in Swift, for clarity and error redduction)
 #### TRUE
 #### FALSE
 
