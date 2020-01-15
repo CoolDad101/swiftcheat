@@ -90,20 +90,34 @@ creates line break for a string
 Integer ie. 1...10, U==Unsigned, 8-64 Bit Range
 
 ### Integer Variants
-Int8
-Int16
-Int32
-Int64
-UInt8
-UInt16
-UInt32
-UInt64
+Int8: -128 to 127  
+Int16: -32768 to 32767  
+Int32: -2147483648 to 2147483647  
+Int64: -9223372036854775808 to 9223372036854775807  
+UInt8: 0 to 255  
+UInt16: 0 to 65535  
+UInt32: 0 to 4294967295  
+UInt64: 0 to 18446744073709551615  
 
-### Float
-Decimal Values 1.001, 32 bit
+### Float(uses Darwin module?)
+Decimal Values  
+ie. "6345631.432"  
+
+### Float Variants(values determined by .greatestFiniteMagnitude using Darwin, accuracy compiler dependant?)
+float: 3.4202823e+38  
+float32: 3.402823E+38  
+float64: 1.7976931348623e+308  
+float80: 1.189731495357231765e+4932  
+cfloat: 3.402823e+38  
 
 ### Double
-Wide number range + Decimal  100000000.001, 64 bit
+64 bit Wide number range Decimal  
+ie. "134634563456.001"
+
+### Double Variants
+double: 1.7976931348623e+308  
+clongdouble: 1.189731495357231765e+4932  
+cdouble: 1.797693134862316e+308  
 
 ### Bool
 #### TRUE
